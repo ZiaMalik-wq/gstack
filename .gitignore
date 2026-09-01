@@ -49,3 +49,7 @@ docs/throughput-*.json
 # skill-e2e-ios-swift-build; regenerates on every run — never commit)
 ios-qa/scripts/gen-accessors-tool/.build/
 ios-qa/scripts/gen-accessors-tool/Package.resolved
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
