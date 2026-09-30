@@ -1,4 +1,4 @@
-﻿.env
+.env
 node_modules/
 dist/
 browse/dist/
@@ -51,6 +51,5 @@ ios-qa/scripts/gen-accessors-tool/.build/
 ios-qa/scripts/gen-accessors-tool/Package.resolved
 .gitignore
 
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
+
+.vscode/
