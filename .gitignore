@@ -1,4 +1,4 @@
-.env
+﻿.env
 node_modules/
 dist/
 browse/dist/
@@ -39,19 +39,18 @@ extension/lib/xterm-addon-fit.js
 !.env.example
 supabase/.temp/
 
-# Throughput analysis â€” local-only, regenerate via scripts/garry-output-comparison.ts
+# Throughput analysis Ã¢â‚¬â€ local-only, regenerate via scripts/garry-output-comparison.ts
 docs/throughput-*.json
 
-# gbrain local source-staging dir (capability checks, source clones) â€” runtime artifact
+# gbrain local source-staging dir (capability checks, source clones) Ã¢â‚¬â€ runtime artifact
 .sources/
 
 # SPM build output from the gen-accessors tool (built in place by
-# skill-e2e-ios-swift-build; regenerates on every run â€” never commit)
+# skill-e2e-ios-swift-build; regenerates on every run Ã¢â‚¬â€ never commit)
 ios-qa/scripts/gen-accessors-tool/.build/
 ios-qa/scripts/gen-accessors-tool/Package.resolved
 .gitignore
 
 
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
+
+.vscode/
